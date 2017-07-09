@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/track"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        android:textStyle="bold"
+
+
+        android:text="A sight to behold"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/artist"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+        android:text="gojira"
+        android:textAllCaps="false"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+
+        android:text=" | "
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="album"
+        android:id="@+id/album"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+        />
+
+
+
+</LinearLayout>
+
+
+
+</LinearLayout>
